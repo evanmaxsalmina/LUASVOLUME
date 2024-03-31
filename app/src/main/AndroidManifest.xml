@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="LUAS N VOLUME"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BottomMenuPakAji"
+        tools:targetApi="31">
+        <activity
+            android:name=".bangunruang.limas"
+            android:exported="false" />
+        <activity
+            android:name=".bangunruang.bola"
+            android:exported="false" />
+        <activity
+            android:name=".bangunruang.kerucut"
+            android:exported="false" />
+        <activity
+            android:name=".bangunruang.tabung"
+            android:exported="false" />
+        <activity
+            android:name=".bangunruang.balok"
+            android:exported="false" />
+        <activity
+            android:name=".bangunruang.kubus"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".bangundatar.persegi"
+            android:exported="false" />
+        <activity
+            android:name=".bangundatar.persegipanjang"
+            android:exported="false" />
+        <activity
+            android:name=".bangundatar.lingkaran"
+            android:exported="false" />
+        <activity
+            android:name=".bangundatar.segitiga"
+            android:exported="false" />
+        <activity
+            android:name=".bangundatar.trapesium"
+            android:exported="false" />
+        <activity
+            android:name=".bangundatar.jajargenjang"
+            android:exported="false" />
+    </application>
+
+</manifest>

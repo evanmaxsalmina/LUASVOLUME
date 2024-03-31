@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgc"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="BANGUN RUANG"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:fontFamily="casual"/>
+    <ImageView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/kubus"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="200dp"
+        android:id="@+id/kubus"/>
+
+    <ImageView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/balok"
+        android:layout_marginTop="125dp"
+        android:layout_marginStart="200dp"
+        android:id="@+id/balok"/>
+
+    <ImageView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/kubus"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/tabung"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="200dp"
+        android:id="@+id/tabung"/>
+
+    <ImageView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/balok"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/kerucut"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="200dp"
+        android:id="@+id/kerucut"/>
+
+    <ImageView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tabung"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/bola"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="200dp"
+        android:id="@+id/bola"/>
+
+    <ImageView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/kerucut"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/limas"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="200dp"
+        android:id="@+id/limas"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
